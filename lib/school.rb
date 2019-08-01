@@ -20,6 +20,7 @@ class School
     @roster.each do |grade, students|
       puts students
       students.sort {|a, b| a <=> b}
+      puts students
     end
     @roster
   end
