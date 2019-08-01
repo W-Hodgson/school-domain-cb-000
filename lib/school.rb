@@ -18,7 +18,7 @@ class School
 
   def sort
     @roster.each do |grade, students|
-      puts students
+      puts students.typeOf
       students.sort {|a, b| a <=> b}
       puts students
     end
