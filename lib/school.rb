@@ -22,5 +22,6 @@ class School
         a <=> b
       end
     end
+    @roster
   end
 end
