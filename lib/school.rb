@@ -22,7 +22,6 @@ class School
         b <=> a
       end
     end
-    @roster
   end
 
 end
